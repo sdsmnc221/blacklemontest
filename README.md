@@ -1,4 +1,4 @@
-# Webpack Frontend Starterkit
+# Webpack Frontend Starterkit, integrated with Shopify Theme Kit
 
 [![Dependabot badge](https://flat.badgen.net/dependabot/wbkd/webpack-starter?icon=dependabot)](https://dependabot.com/)
 
@@ -11,10 +11,20 @@ A lightweight foundation for your next webpack based frontend project.
 npm install
 ```
 
+Install Shopify ThemeKit
+```
+npm install
+```
+
 ### Start Dev Server
 
 ```
-npm start
+brew tap shopify/shopify
+brew install themekit
+
+//or
+
+curl -s https://shopify.github.io/themekit/scripts/install.py | sudo python
 ```
 
 ### Build Prod Version
